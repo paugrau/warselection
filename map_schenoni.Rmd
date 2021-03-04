@@ -61,7 +61,7 @@ m1815 <- map_1815%>%
 It is well defined, but not historical.
 
 ```{r echo=TRUE, message=FALSE}
-database <- sf::st_read(paste0(getwd(), "COMM_RG_01M_2016_3857.shp"))
+database <- sf::st_read(paste0(getwd(), "/COMM_RG_01M_2016_3857.shp"))
 ```
 
 First I extract the current territories of France (excluding e.g. Nice), Andorra, and the Palatinate Freicities (part of France in 1790).
